@@ -49,26 +49,26 @@ const Hero = () => {
           class="w-[150px] h-[150px] rounded-md -rotate-12 object-cover absolute bottom-8 right-72"
         />
       </div>
-      <p class="bg-[#eee2f4] bottom-16  md:left-100 left-36 p-2 absolute rounded-3xl">
+      <p class="bg-[#eee2f4] bottom-16 text-sm md:text-base  md:left-[600px] left-36 p-2 absolute rounded-3xl">
+        Human Resource {" "}
+      </p>
+
+      <p class="bg-[#fff3ce] bottom-32 text-sm md:text-base   rotate-12 md:left-[500px] left-16 p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
 
-      <p class="bg-[#fff3ce] bottom-32  rotate-12 md:left-[500px] left-16 p-2 absolute rounded-3xl">
+      <p class="bg-[#e8fbdd] bottom-32 text-sm md:text-base  -rotate-12 md:right-[550px] right-12 p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
 
-      <p class="bg-[#e8fbdd] bottom-32 -rotate-12 md:right-[550px] right-12 p-2 absolute rounded-3xl">
+      <p class="bg-[#c6d3fe] bottom-48 text-sm md:text-base  md:rotate-12 -rotate-12 md:left-[850px] left-2 p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
 
-      <p class="bg-[#c6d3fe] bottom-48 md:rotate-12 -rotate-12 md:left-[850px] left-2 p-2 absolute rounded-3xl">
+      <p class="bg-[#c4ecee] bottom-48 text-sm md:text-base  -rotate-12 md:right-[850px] right-2  p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
-
-      <p class="bg-[#c4ecee] bottom-48 -rotate-12 md:right-[850px] left-72 p-2 absolute rounded-3xl">
-        Human Resource{" "}
-      </p>
-      <p class="bg-[#fce9dd] bottom-48 rotate-6  p-2 absolute rounded-3xl">
+      <p class="bg-[#fce9dd] bottom-48 text-sm md:text-base  rotate-6  p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
     </div>
