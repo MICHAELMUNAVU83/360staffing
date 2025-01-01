@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div class="w-[100%] relative bg-primary/20 h-[90vh]  flex flex-col justify-center items-center gap-4">
+    <div class="w-[100%] relative bg-primary/20 h-[100vh]  flex flex-col justify-center items-center gap-4">
       <div class="w-[60%] text-primaryDark arimo-bold mx-auto text-[80px] leading-[64px]  font-semibold flex flex-col justify-center items-center gap-1">
         <p>Best Solution To Get</p>
         <p>Good Employees</p>
@@ -35,7 +35,7 @@ const Hero = () => {
 
       <img
         src="/image.png"
-        class="w-[150px] h-[150px] rounded-md object-cover absolute bottom-8 left-80"
+        class="w-[150px] h-[150px] rounded-md object-cover absolute bottom-8 left-72"
       />
 
       <img
@@ -45,29 +45,29 @@ const Hero = () => {
 
       <img
         src="/image.png"
-        class="w-[150px] h-[150px] rounded-md -rotate-12 object-cover absolute bottom-8 right-80"
+        class="w-[150px] h-[150px] rounded-md -rotate-12 object-cover absolute bottom-8 right-72"
       />
 
-      <p class="bg-[#eee2f4] bottom-32 left-100 p-2 absolute rounded-3xl">
+      <p class="bg-[#eee2f4] bottom-16 left-100 p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
 
-      <p class="bg-[#fff3ce] bottom-48 rotate-12 left-[500px] p-2 absolute rounded-3xl">
+      <p class="bg-[#fff3ce] bottom-32 rotate-12 left-[500px] p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
 
-      <p class="bg-[#e8fbdd] bottom-48 -rotate-12 right-[500px] p-2 absolute rounded-3xl">
+      <p class="bg-[#e8fbdd] bottom-32 -rotate-12 right-[550px] p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
 
-      <p class="bg-[#c6d3fe] bottom-56 rotate-12 left-[900px] p-2 absolute rounded-3xl">
+      <p class="bg-[#c6d3fe] bottom-48 rotate-12 left-[850px] p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
 
-      <p class="bg-[#c4ecee] bottom-56 -rotate-12 right-[900px] p-2 absolute rounded-3xl">
+      <p class="bg-[#c4ecee] bottom-48 -rotate-12 right-[850px] p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
-      <p class="bg-[#fce9dd] bottom-56 rotate-6  p-2 absolute rounded-3xl">
+      <p class="bg-[#fce9dd] bottom-48 rotate-6  p-2 absolute rounded-3xl">
         Human Resource{" "}
       </p>
     </div>
