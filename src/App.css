@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+
+.arimo-light {
+  font-family: "Arimo", sans-serif;
+  font-weight: 300;
+}
+
+.arimo-regular {
+  font-family: "Arimo", sans-serif;
+  font-weight: 500;
+}
+
+.arimo-bold {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+}
