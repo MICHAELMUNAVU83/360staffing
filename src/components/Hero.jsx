@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div class="w-[100%] bg-primary/20 h-[100vh] relative flex flex-col justify-center items-center gap-4">
+    <div class="w-[100%] relative bg-primary/20 h-[90vh]  flex flex-col justify-center items-center gap-4">
       <div class="w-[60%] text-primaryDark arimo-bold mx-auto text-[80px] leading-[64px]  font-semibold flex flex-col justify-center items-center gap-1">
         <p>Best Solution To Get</p>
         <p>Good Employees</p>
@@ -27,6 +27,49 @@ const Hero = () => {
           <p class="font-medium text-primaryDark">Learn More</p>
         </div>
       </div>
+
+      <img
+        src="/image.png"
+        class="w-[250px] h-[250px] rounded-md object-cover rotate-12 absolute bottom-48 left-8"
+      />
+
+      <img
+        src="/image.png"
+        class="w-[150px] h-[150px] rounded-md object-cover absolute bottom-8 left-80"
+      />
+
+      <img
+        src="/image.png"
+        class="w-[250px] h-[250px] rounded-md object-cover rotate-12 absolute bottom-48 right-8"
+      />
+
+      <img
+        src="/image.png"
+        class="w-[150px] h-[150px] rounded-md -rotate-12 object-cover absolute bottom-8 right-80"
+      />
+
+      <p class="bg-[#eee2f4] bottom-32 left-100 p-2 absolute rounded-3xl">
+        Human Resource{" "}
+      </p>
+
+      <p class="bg-[#fff3ce] bottom-48 rotate-12 left-[500px] p-2 absolute rounded-3xl">
+        Human Resource{" "}
+      </p>
+
+      <p class="bg-[#e8fbdd] bottom-48 -rotate-12 right-[500px] p-2 absolute rounded-3xl">
+        Human Resource{" "}
+      </p>
+
+      <p class="bg-[#c6d3fe] bottom-56 rotate-12 left-[900px] p-2 absolute rounded-3xl">
+        Human Resource{" "}
+      </p>
+
+      <p class="bg-[#c4ecee] bottom-56 -rotate-12 right-[900px] p-2 absolute rounded-3xl">
+        Human Resource{" "}
+      </p>
+      <p class="bg-[#fce9dd] bottom-56 rotate-6  p-2 absolute rounded-3xl">
+        Human Resource{" "}
+      </p>
     </div>
   );
 };
