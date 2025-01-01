@@ -4,15 +4,15 @@ import { ImQuotesRight } from "react-icons/im";
 const Reviews = () => {
   return (
     <div class="w-[100%] py-12">
-      <div class="w-[90%] mx-auto flex justify-between items-start">
-        <div class="w-[47%] ">
+      <div class="w-[90%] mx-auto flex md:flex-row flex-col  gap-4 justify-between items-start">
+        <div class="md:w-[47%] w-[100%] ">
           <img
             src="/image.png"
             alt="review"
             class="w-[100%] rounded-tl-2xl rounded-tr-[100px]  rounded-bl-[100px] first-letter:rounded-br-3xl  h-[100%] object-cover"
           />
         </div>
-        <div class="w-[47%] flex flex-col gap-4 ">
+        <div class="md:w-[47%] w-[100%] flex flex-col gap-4 ">
           <div class="w-[80px] h-[80px] bg-primary rounded-full flex justify-center items-center">
             <ImQuotesRight class="text-white text-4xl" />
           </div>

@@ -18,7 +18,7 @@ const Steps = () => {
     },
   ];
   return (
-    <div class="w-[90%] mx-auto py-24 grid grid-cols-3 gap-8">
+    <div class="w-[90%] mx-auto py-12 grid md:grid-cols-3 gap-8">
       <div class="flex flex-col gap-4 p-8 bg-[#c6d3fe] rounded-[30px] shadow-sm shadow-gray-300  h-[250px]  ">
         <div class="flex flex-col text-white gap-3">
           <IoIosSearch class="text-lightBlack text-5xl" />

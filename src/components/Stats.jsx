@@ -21,13 +21,13 @@ const Stats = () => {
   ];
   return (
     <div class="w-[100%] py-16">
-      <div class="grid grid-cols-4 gap-8">
+      <div class="grid md:grid-cols-4 grid-cols-2 gap-8">
         {data.map((item) => (
           <div class="flex flex-col gap-0 items-center">
-            <p class="text-5xl arimo-bold text-primary  font-semibold">
+            <p class="md:text-5xl text-3xl arimo-bold text-primary  font-semibold">
               {item.number}
             </p>
-            <p class="text-xl text-lightBlack arimo-regular ">
+            <p class="md:text-xl text-lightBlack arimo-regular ">
               {item.description}
             </p>
           </div>

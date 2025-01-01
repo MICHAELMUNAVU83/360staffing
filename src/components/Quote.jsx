@@ -4,8 +4,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Quote = () => {
   return (
     <div class="w-[100%]">
-      <div class="w-[90%] mx-auto py-16 flex justify-between items-start">
-        <div class="w-[47%] flex flex-col gap-4 items-start">
+      <div class="w-[90%] mx-auto md:pb-16  md:flex-row flex-col gap-8 flex justify-between items-start">
+        <div class="md:w-[47%] w-[100%] flex flex-col gap-4 items-start">
           <div class="flex flex-col gap-1">
             <p class="text-primary  arimo-light text-xl">/ get a quote /</p>
             <p class="text-2xl arimo-bold text-lightDark font-semibold">
@@ -60,11 +60,17 @@ const Quote = () => {
           </form>
         </div>
 
-        <div class="w-[47%] ">
+        <div class="md:w-[47%] w-[100%] ">
           <img
             src="/left.png"
             alt="review"
-            class="w-[100%] h-[500px] object-cover"
+            class="w-[100%] md:block hidden h-[500px] object-cover"
+          />
+
+          <img
+            src="/up.png"
+            alt="review"
+            class="w-[100%] md:hidden block h-[500px] object-contain"
           />
         </div>
       </div>

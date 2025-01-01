@@ -68,13 +68,11 @@ const NavBar = () => {
           {nav ? (
             <AiOutlineClose
               className="text-4xl"
-              onClick={toggleNav}
               style={{ color: `${textColor}` }}
             />
           ) : (
             <AiOutlineMenu
               className="text-4xl"
-              onClick={toggleNav}
               style={{ color: `${textColor}` }}
             />
           )}

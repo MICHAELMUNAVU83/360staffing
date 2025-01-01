@@ -22,25 +22,16 @@ const Services = () => {
   ];
   return (
     <div class="w-[100%]">
-      <div class="w-[90%] mx-auto py-12 flex flex-col gap-2">
+      <div class="w-[90%] mx-auto py-12 flex justify-center items-center flex-col gap-2">
         <p class="text-primary  arimo-light text-xl">/ our services /</p>
 
-        <div class="w-[100%]  my-5 flex justify-between items-start">
-          <div class=" text-4xl text-lightBlack arimo-bold flex flex-col gap-2 leading-[32px] font-semibold">
+        <div class="w-[100%]  my-5 flex justify-center text-center items-center">
+          <div class=" md:text-4xl text-2xl text-lightBlack arimo-bold flex flex-col gap-2 leading-[20px] md:leading-[32px] font-semibold">
             <p> A Leading Global Provider </p>
             <p>Of Recruitment</p>
           </div>
-
-          <div>
-            <div class="p-2 rounded-full w-[200px]   bg-primary text-primaryDark flex  gap-4 items-center">
-              <p class="w-[40px] h-[40px] arimo-regular rounded-full text-black bg-white flex flex-col justify-center items-center">
-                <FaArrowRightLong />
-              </p>
-              <p class="font-medium text-primaryDark">See All Services</p>
-            </div>
-          </div>
         </div>
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid md:grid-cols-3 gap-4">
           {services.map((service) => (
             <div
               class="flex p-4 justify-between bg-white gap-8  shadow-sm rounded-[35px] shadow-gray-300 flex-col 
