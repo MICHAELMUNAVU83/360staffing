@@ -24,8 +24,7 @@ const WhoWeAre = () => {
       <div class="w-[90%] flex flex-col justify-center items-center gap-4 mx-auto">
         <p class="text-primary  arimo-light text-xl">/ who we are /</p>
         <div class="md:text-5xl text-2xl arimo-bold text-primaryDark md:leading-[48px] leading-[24px] w-[90%] md:w-[60%] mx-auto flex flex-col justify-center items-center font-semibold">
-          <p>A Leading Global Provider </p>
-          <p>Of Recruitment </p>
+          <p>Welcome to 360 Staffing </p>
         </div>
         <div class="flex md:flex-row flex-col gap-8 justify-between w-[100%] items-start">
           <div class="md:w-[50%] w-[100%] relative">
@@ -42,10 +41,19 @@ const WhoWeAre = () => {
           </div>
 
           <div class="md:w-[47%] w-[100%] mt-80 md:mt-0 flex flex-col gap-4">
-            <p class="arimo-light text-lg text-lightBlack">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae.
+            <p class="arimo-light text-lightBlack">
+              At 360 Staffing, we are revolutionizing the way businesses connect
+              with talent. Whether you need skilled professionals for long-term
+              roles, semi-skilled workers for project-based assignments, or
+              end-to-end HR solutions, we’ve got you covered.
+            </p>
+            <p class="arimo-light text-lightBlack">
+              We specialize in Fractional Talent Acquisition, HR Digitization,
+              and Global Recruitment Solutions for organizations across Europe,
+              Africa, Asia, and the Gulf. From managing remote tech teams in
+              Kenya to executing large-scale hiring campaigns, we deliver
+              tailored workforce strategies designed to meet your unique
+              business goals.
             </p>
 
             <div class="grid grid-cols-2 gap-4">
