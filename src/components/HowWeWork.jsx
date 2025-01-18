@@ -4,20 +4,24 @@ import { IoIosSearch } from "react-icons/io";
 const HowWeWork = () => {
   const data = [
     {
-      name: "Analysis",
-      description: "Our commitment to support your HR needs every steps.",
+      name: "Consultation",
+      description:
+        "We assess your needs, business goals, and talent requirements.",
     },
     {
-      name: "Analysis",
-      description: "Our commitment to support your HR needs every steps.",
+      name: "Talent Matching",
+      description:
+        "Using our global network, we find the best-fit candidates for your organization.",
     },
     {
-      name: "Analysis",
-      description: "Our commitment to support your HR needs every steps.",
+      name: "Seamless Integration",
+      description:
+        "From contracts to onboarding, we ensure a smooth transition for every hire.",
     },
     {
-      name: "Analysis",
-      description: "Our commitment to support your HR needs every steps.",
+      name: "Continous Support",
+      description:
+        "Ongoing HR and recruitment services to help your team thrive.",
     },
   ];
   return (
@@ -25,12 +29,7 @@ const HowWeWork = () => {
       <div class="w-[90%] flex flex-col justify-center items-center gap-4 mx-auto">
         <p class="text-primary  arimo-light text-xl">/ how we work /</p>
         <div class="md:text-5xl text-3xl  arimo-bold leading-[24px] md:leading-[48px] md:w-[60%] w-[90%] mx-auto flex flex-col justify-center items-center font-semibold">
-          <p>Solutions To Improve </p>
-          <p>Perfomance</p>
-        </div>
-        <div class="md:text-xl arimo-light text-center  text-gray-500 w-[90%]  md:w-[60%] mx-auto flex flex-col justify-center items-center">
-          <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam </p>
-          <p>quis nostrum exercitationem ullam </p>
+          <p>Our Process</p>
         </div>
 
         <div class="grid  md:mt-12 mt-6 md:grid-cols-4 gap-8">

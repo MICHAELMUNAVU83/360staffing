@@ -3,20 +3,23 @@ import React from "react";
 const WhoWeAre = () => {
   const data = [
     {
-      name: "Profile Highlighter",
-      description: "Get highlighted by the company that you’ve been worked.",
+      name: "Flexible Solutions",
+      description: "Access top HR and recruitment professionals on-demand.",
     },
     {
-      name: "Profile Highlighter",
-      description: "Get highlighted by the company that you’ve been worked.",
+      name: "HR Digitization",
+      description:
+        "Leverage cutting-edge tools to streamline your hiring and onboarding processes.",
     },
     {
-      name: "Profile Highlighter",
-      description: "Get highlighted by the company that you’ve been worked.",
+      name: "Tailored Talent Strategies:",
+      description:
+        "From sourcing to onboarding, we craft solutions that align with your business needs.",
     },
     {
-      name: "Profile Highlighter",
-      description: "Get highlighted by the company that you’ve been worked.",
+      name: "Global Reach",
+      description:
+        "Connect with a diverse talent pool to find the right fit for your organization, no matter the location.",
     },
   ];
   return (

@@ -26,7 +26,7 @@ const Steps = () => {
             Build your compelling job advertisement
           </p>
           <p class="arimo-light text-lg leading-[20px] text-lightGrey ">
-            Get o’clock guidance on how to attract more cadidates.
+            Create engaging job postings that attract top talent.
           </p>
         </div>
       </div>
@@ -35,10 +35,10 @@ const Steps = () => {
         <div class="flex flex-col text-white gap-3">
           <IoIosSearch class="text-lightBlack text-5xl" />
           <p class="text-xl  font-semibold arimo-bold text-lightBlack">
-            Build your compelling job advertisement
+            Promote your ad on 100+ job search sites
           </p>
           <p class="arimo-light text-lg leading-[20px] text-lightGrey ">
-            Get o’clock guidance on how to attract more cadidates.
+            Reach more candidates by sharing your ad across multiple platforms.
           </p>
         </div>
       </div>
@@ -47,10 +47,11 @@ const Steps = () => {
         <div class="flex flex-col text-white gap-3">
           <IoIosSearch class="text-lightBlack text-5xl" />
           <p class="text-xl  font-semibold arimo-bold text-lightBlack">
-            Build your compelling job advertisement
+            Manage Candidates easy with hiring workflows
           </p>
           <p class="arimo-light text-lg leading-[20px] text-lightGrey ">
-            Get o’clock guidance on how to attract more cadidates.
+            Simplify hiring with workflows that track candidates from start to
+            finish.
           </p>
         </div>
       </div>

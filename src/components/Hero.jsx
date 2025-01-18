@@ -4,19 +4,13 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div class="w-[100%] relative bg-primary/20 md:h-[100vh]  h-[80vh] flex flex-col justify-center items-center gap-4">
-      <div class="md:w-[60%] w-[90%] text-primaryDark arimo-bold mx-auto text-4xl md:text-[80px] md:leading-[64px] leading-[32px]  font-semibold flex flex-col justify-center items-center gap-1">
-        <p>Best Solution To Get</p>
-        <p>Good Employees</p>
+      <div class="md:w-[80%] w-[90%] text-primaryDark arimo-bold mx-auto text-4xl md:text-[80px] md:leading-[64px] leading-[32px]  font-semibold flex flex-col justify-center items-center gap-1">
+        <p>Your Partner In Building</p>
+        <p>Winning Teams</p>
       </div>
 
       <div class="md:w-[60%] w-[90%] arimo-light text-center  text-gray-500 mx-auto md:text-xl leading-[20px]    flex flex-col justify-center items-center gap-1">
-        <p>
-          Social Creatures, living in pride , led by dominant male. They rely on{" "}
-        </p>
-
-        <p>
-          teamwork during hunts , showcasing their exceptional hunting skills
-        </p>
+        <p>Revolutionizing Recruitment, One Match at a Time.</p>
       </div>
 
       <div class="w-[100%] flex justify-center items-center gap-4">
@@ -50,26 +44,26 @@ const Hero = () => {
         />
       </div>
       <p class="bg-[#eee2f4] bottom-16 text-sm md:text-base  md:left-[600px] left-36 p-2 absolute rounded-3xl">
-        Human Resource {" "}
+        # Employment{" "}
       </p>
 
       <p class="bg-[#fff3ce] bottom-32 text-sm md:text-base   rotate-12 md:left-[500px] left-16 p-2 absolute rounded-3xl">
-        Human Resource{" "}
+        # Staffing{" "}
       </p>
 
       <p class="bg-[#e8fbdd] bottom-32 text-sm md:text-base  -rotate-12 md:right-[550px] right-12 p-2 absolute rounded-3xl">
-        Human Resource{" "}
+        # Human Resource{" "}
       </p>
 
       <p class="bg-[#c6d3fe] bottom-48 text-sm md:text-base  md:rotate-12 -rotate-12 md:left-[850px] left-2 p-2 absolute rounded-3xl">
-        Human Resource{" "}
+        # Talent Acquisition{" "}
       </p>
 
       <p class="bg-[#c4ecee] bottom-48 text-sm md:text-base  -rotate-12 md:right-[850px] right-2  p-2 absolute rounded-3xl">
-        Human Resource{" "}
+        # Remote Recruitment{" "}
       </p>
       <p class="bg-[#fce9dd] bottom-48 text-sm md:text-base  rotate-6  p-2 absolute rounded-3xl">
-        Human Resource{" "}
+        # Talent Management{" "}
       </p>
     </div>
   );

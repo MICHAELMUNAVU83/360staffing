@@ -5,19 +5,19 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Services = () => {
   const services = [
     {
-      name: "Recruitment Solution",
+      name: "Recruitment Solutions",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor",
+        "We connect organizations with top talent, offering skilled, semi-skilled, and unskilled recruitment across various industries, as well as handling mass and corporate recruitment for both onsite and remote roles.",
     },
     {
-      name: "Recruitment Solution",
+      name: "HR Support for Remote Teams",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor",
+        "Managing remote employees in Kenya can be complex. We offer solutions like payroll management, engagement strategies, and HR integration to streamline operations and boost productivity.",
     },
     {
-      name: "Recruitment Solution",
+      name: "Recruitment Solutions",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor",
+        "We connect organizations with top talent, offering skilled, semi-skilled, and unskilled recruitment across various industries, as well as handling mass and corporate recruitment for both onsite and remote roles.",
     },
   ];
   return (
@@ -34,24 +34,15 @@ const Services = () => {
         <div class="grid md:grid-cols-3 gap-4">
           {services.map((service) => (
             <div
-              class="flex p-4 justify-between bg-white gap-8  shadow-sm rounded-[35px] shadow-gray-300 flex-col 
+              class="flex p-4 bg-white gap-8  shadow-sm rounded-[35px] shadow-gray-300 flex-col 
             "
             >
               <p class="text-lightBlack font-medium text-xl arimo-bold">
-                Recruitment Solution
+                {service.name}
               </p>
-              <p class="text-lightGrey arimo-light">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium dolor error sit voluptatem accusantium dolor
+              <p class="text-lightGrey h-[100px] arimo-light">
+                {service.description}
               </p>
-
-              <div class="flex flex-col gap-1">
-                <div class="text-primary flex gap-2 items-center ">
-                  <p>Explore Now</p>
-                  <FaArrowRightLong class="" />
-                </div>
-                <p class="bg-primary h-[1px] w-[120px]" />
-              </div>
 
               <img
                 src="/image.png"

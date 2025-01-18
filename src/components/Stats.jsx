@@ -3,20 +3,20 @@ import React from "react";
 const Stats = () => {
   const data = [
     {
-      number: "834.0 M",
-      description: "Freelancers",
+      number: "500 +",
+      description: "Successful Placements",
     },
     {
-      number: "834.0 M",
-      description: "Candidates",
+      number: "95 %",
+      description: "Client Satisfaction Rate",
     },
     {
-      number: "834.0 M",
-      description: "Orders",
+      number: "1 M +",
+      description: "Hours of Recruitment Expertise",
     },
     {
-      number: "834.0 M",
-      description: "Projects",
+      number: "200 +",
+      description: "Projects Completed",
     },
   ];
   return (
