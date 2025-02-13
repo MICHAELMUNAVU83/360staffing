@@ -48,15 +48,28 @@ const WhoWeAre = () => {
               At 360 Staffing, we are revolutionizing the way businesses connect
               with talent. Whether you need skilled professionals for long-term
               roles, semi-skilled workers for project-based assignments, or
-              end-to-end HR solutions, we’ve got you covered.
+              end-to-end HR solutions for your organization, we’ve got you
+              covered.
             </p>
             <p class="arimo-light text-lightBlack">
-              We specialize in Fractional Talent Acquisition, HR Digitization,
-              and Global Recruitment Solutions for organizations across Europe,
-              Africa, Asia, and the Gulf. From managing remote tech teams in
-              Kenya to executing large-scale hiring campaigns, we deliver
-              tailored workforce strategies designed to meet your unique
-              business goals.
+              We are a Kenyan-based recruitment firm specializing in providing
+              skilled and unskilled labor solutions both locally and
+              internationally. We aim to connect businesses with top talent in
+              various industries, ensuring smooth recruitment processes and
+              successful outcomes for all stakeholders. We specialize in
+              Fractional Talent Acquisition, HR Digitization, and Global
+              Recruitment Solutions for organizations across Europe, Africa,
+              Asia, and the Gulf. From managing remote tech teams in Kenya to
+              executing large-scale hiring campaigns, we deliver tailored
+              workforce strategies designed to meet your unique business goals.
+            </p>
+
+            <p class="arimo-light text-lightBlack">
+              Our team of experts brings over 15 years of combined experience in
+              Human Resource services, specializing in International
+              recruitment. We have built strong relationships across multiple
+              regions and industries, enabling us to cater to diverse labor
+              needs efficiently.
             </p>
 
             <div class="grid grid-cols-2 gap-4">
